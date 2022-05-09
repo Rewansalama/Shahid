@@ -1,0 +1,258 @@
+<html>
+
+<head>
+
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/stylt.css">
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-transparent fixed-top">
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item navbtn active ml-3  ">
+                    <button class="btn text-light ">vip جرب شاهد</button>
+                </li>
+                <li class="nav-item  active ">
+                    <a class="nav-link navitem" href="#">الدخول <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ml-1  active">
+                    <a class="nav-link navitem" href="#">English <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mt-2 ml-1 active">
+                    <span class="icon"> <i class="fas fa-search"></i></span>
+                </li>
+
+
+
+
+
+            </ul>
+
+            <ul class="ul-inline navbar-nav my-2 my-lg-0">
+
+                <li class="nav-item  d-flex active">
+                    <a class="nav-link navitem" href="#">اطفال <span class="sr-only">(current)</span></a>
+                    <img class="navitem1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icTZ4Y2w2MTFiYSIgeDE9Ii4wMTQlIiB4Mj0iMTAwJSIgeTE9IjUwJSIgeTI9IjUwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRjg0MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRjZGQTAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9IjNtMnlndmNtdGIiIHgxPSIwJSIgeDI9Ijk5Ljk4NiUiIHkxPSI1MCUiIHkyPSI1MCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRkYwQzJFIi8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0ZGODQwMCIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJxZDllNmlhM2VjIiB4MT0iMCUiIHgyPSIxMDAlIiB5MT0iNTAlIiB5Mj0iNTAlIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBDOSIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwOUYiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8cGF0aCBmaWxsPSIjODU5NUFEIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xMy41MzUgMTcuMjIyYy4yMzQgMS41NTUuMjk0IDIuOTAzLjIwNCA0LjE0bC0uMTU5LjIxMmMuMjQyLS4zMzUuNTAyLS42Ny43Ny0uOTgzLjI5NS0uMzQ2LjU4My0uNjQ1Ljg1OC0uODgyLjI2NS0uMjI4LjUxMi0uMzk1Ljc0My0uNDkzbC4xMTUtLjA0NC4xMTguMzU2Yy0uMjA5LjA3LS40NTYuMjI4LS43MzEuNDY1LS4yNTguMjIzLS41MzQuNTA5LS44MTkuODQyLS4xNzMuMjAzLS4zNDQuNDE2LS41MDguNjMybC0uMjQyLjMyN2MtLjA4OC4xMjItLjE2Mi4yMjctLjIxOS4zMS0uMDgxLjY1NC0uMjA4IDEuMjgxLS4zNzQgMS44OTZoLS4zNjJjLjE1Mi0uNTYyLjI3LTEuMTQ0LjM1LTEuNzUzbC0uMDA0LjAwMi0uMDUtLjA4LS4wNTktLjEyOGMtLjA4Mi0uMTcyLS4xODUtLjM2My0uMzEtLjU3LS4zNTYtLjU5MS0uODE0LTEuMTg0LTEuMzg0LTEuNzM2LS4zMDctLjI5OC0uNjE0LS41NzctLjk3Mi0uODMybC4xOTMtLjMwNi4yNzUuMjA1Yy4yNy4yMDkuNTI1LjQzLjc2NS42NjQuNTk1LjU3NiAxLjA3MyAxLjE5NCAxLjQ0NSAxLjgxMi4wNjMuMTA1LjEyMS4yMDYuMTc0LjMwMy4xMDctMS4yODYuMDUzLTIuNjk4LS4xODctNC4zMDMtLjAxNi0uMTAzLjA1NS0uMTk4LjE1Ny0uMjEzLjEwMy0uMDE2LjE5OC4wNTUuMjEzLjE1N3oiLz4KICAgICAgICA8Zz4KICAgICAgICAgICAgPHBhdGggZmlsbD0idXJsKCNxNnhjbDYxMWJhKSIgZD0iTTcuMjg2IDEuMTI2Yy40ODcuMzExLjkyLjcwNSAxLjI2NSAxLjE3My4zMjIuNDQuNjU1Ljk5NC44MTUgMS41MTMuMTA3LjM0NS4xNzMuNzE2LjE5IDEuMDc1LjAzOC43MzktLjA5NCAxLjUwNC0uMjgyIDIuMjE3LS4zIDEuMTI4LS44OTMgMi4yNDQtMS42MSAzLjE3OS0xLjYyIDIuMTE2LTQuMDM4IDMuMjYtNS42MTcgMy4xMDRsLS4wMDUuOTczcy0uNTQ3LS4xMDQtLjgyOC0uMzJjLjA2Ni0uMzI1LjM0NC0uNjYuNDctLjc5OC0uNDAyLS4yMzQtLjkwOC0uNzI1LTEuMzc4LTEuNDIxIDIuMTEtMS4zNDQgNS4xOS01LjE1MyAzLjg4LTEwLjQyOC0uMDktLjM2LS4yMDUtLjczMi0uMzQ3LTEuMSAxLjIwMS0uMSAyLjQ0Mi4xOTMgMy40NDcuODMzeiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCA1LjI1KSB0cmFuc2xhdGUoMTQuMjUpIi8+CiAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjM20yeWd2Y210YikiIGQ9Ik01LjIyLjA4NmguMDcyYy0uMDY3LjYzMi0uMDQ4IDEuMjc5LjAxNCAxLjg5OC4xMzUgMS4zOTguNjU3IDIuODM3IDEuMzczIDQuMDg3IDEuMTQgMS45ODcgMi44ODggMy40OCA0LjU0NCA0LjIzMy0uMTU1LjU3Mi0uMzYxIDEuMDItLjU3IDEuMy4xNi4wODQuNTI4LjMwMS43MDMuNTc5LS4xNDguMjctLjUyLjUyOS0uNTk0LjU3OGwtLjAxMi4wMDgtLjM2Mi0uOTA2Yy0xLjMyOC42OTUtMy44NjYuNDY1LTYuMDY0LS45NDctLjk3LS42MjItMS45MDEtMS40NTYtMi41NzctMi40MDUtLjQyNS0uNTk3LS44MjEtMS4yNjctMS4wNi0xLjk2Ny0uMTE1LS4zNDItLjE5NC0uNzEtLjIyOC0xLjA2OS0uMDQ5LS41MzkuMDQtMS4xNy4xNjItMS42OTMuMTMtLjU1Ni4zNjUtMS4wNzMuNjc4LTEuNTNDMi4xNzUuOTY4IDMuNjY5LjEyOSA1LjIyLjA4NnoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNS4yNSkgdHJhbnNsYXRlKDAgMS41KSIvPgogICAgICAgIDwvZz4KICAgICAgICA8cGF0aCBmaWxsPSIjRkZGIiBkPSJNMjIuNDkgOC4zMTRjMS4xMTcgMi4yMS40NjggNC45NDctLjYwMiA2LjYwMSAxLjIwNi0zLjY0Mi4wMDQtNi4yMzIuMDA0LTYuMjMycy4zODMtLjIwNS41OTgtLjM2OXptLS45NzgtLjk2cy40NDIuMjI0LjYwMi40MThsLS40ODguNDgtLjUxMi0uNDk0LjM5OC0uNDA0ek0xLjI2NiAxMC45NjJjLjI5NS4wNTcuNzg4LjA4My43ODguMDgzcy0uMzgyIDIuOTM5IDIuMjUxIDUuODAyYy0xLjc2OS0xLjA3My0zLjQ2Ni0zLjMzNi0zLjA0LTUuODg1em0uNzI2LTEuMzIzbC41OC4yMDQtLjM4Mi42ODItLjcwNy0uMjMzYy4xMDctLjI0OC41MDktLjY1My41MDktLjY1M3oiLz4KICAgICAgICA8cGF0aCBmaWxsPSJ1cmwoI3FkOWU2aWEzZWMpIiBkPSJNOS40NzggMi40MzdjMS43MjctLjcxNyAzLjgyNy0uNjQ2IDUuNDkzLjIxOSAxLjU1LjgwNCAyLjM4MyAyLjUzOCAyLjc1IDQuMDg1IDEuMzM0IDUuNjI4LTIuNDUyIDkuNDY2LTQuMTk1IDEwLjExMi4xMTguMTczLjM3LjU4NC4zODEuOTQ3LS4zNjIuMTg2LTEuMDA1LjItMS4wMDUuMmwuMTgyLTEuMDU0Yy0xLjgzNS0uMTEzLTQuMzczLTEuODE2LTUuODE0LTQuNDQ5LS42MzYtMS4xNjUtMS4xLTIuNTA2LTEuMjItMy44MDgtLjA3OC0uODItLjA4LTEuNjk0LjEwNS0yLjUwMy4wOS0uMzkyLjIzOC0uNzkxLjQyNi0xLjE1My4yODQtLjU0NS43NzEtMS4wOTggMS4yMjQtMS41MjguNDg3LS40NTUgMS4wNTYtLjgxMyAxLjY3My0xLjA2OHoiLz4KICAgICAgICA8cGF0aCBmaWxsPSIjRkZGIiBkPSJNNy42NDcgNC43MzdjLjI0OS4yMTYuNjk2LjUwMi42OTYuNTAycy0xLjU5NCAzLjAzNy0uMzYxIDcuNTY0Yy0xLjE4Ny0yLjEwNS0xLjgwNy01LjQ4MS0uMzM1LTguMDY2ek04Ljg3OSAzLjY2bC40NTIuNTI3LS42NDIuNTUzLS41NTktLjYyN2MuMjA1LS4yMTkuNzQ5LS40NTMuNzQ5LS40NTN6Ii8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                        alt="">
+                </li>
+
+                <li class="nav-item  ml-1 active">
+                    <a class="nav-link navitem" href="#">مباشر <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item  ml-1 active">
+                    <a class="nav-link navitem" href="#">تصفح <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item  ml-1 active">
+                    <a class="nav-link navitem" href="#">افلام <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item  ml-1 active">
+                    <a class="nav-link navitem" href="#">مسلسلات وبرامج <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item  ml-1 active">
+                    <a class="nav-link navitem" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+
+                </li>
+
+                <li class="nav-item  ml-1 mt-2 mr-3 active">
+
+                    <a href="/ar/home"><img class="linkedLogo_normalLogo__2WndI" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzODQiIGhlaWdodD0iNzkiIHZpZXdCb3g9IjAgMCAzODQgNzkiPgogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8Zz4KICAgICAgICAgICAgPGc+CiAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTIgLTU4KSB0cmFuc2xhdGUoNTIgNTgpIHRyYW5zbGF0ZSgxMDcuNDIxKSI+CiAgICAgICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTE2OS4xNzcgMHY1My4wNjJoMTA1LjA4N0wyNzQuMTA4IDc5aC0xNy4yODV2LTguNzc4bC0xMDQuOTQuMTU3VjBoMTcuMjk0em0tNTUuMDMzIDYuNTgzYzE1LjYwMiAwIDI3LjYgMTIuNTE4IDI3Ljg1MiAyOC4wNTZsLjAwNC40NzJ2MzUuMTExSDBWNTMuMTM4aDMyLjI2OHYtNi44MzVjMC05LjQzNi01LjcwOC0xNC4wNDUtMTMuNjEtMTQuMDQ1LTMuNTEyIDAtNy42ODMuODc4LTExLjYzNCAyLjYzNEw1LjI2OCAyMS4wNjdjNS4wNDktMi4xOTUgMTAuOTc2LTMuNTExIDE1LjgwNS0zLjUxMSAyMC4xOTQgMCAyOC41MTUgMTIuMDcgMjguNTE1IDI2LjMzM2wuMDA4IDkuMjQ5aDExLjczYy0xLjE4My0zLjA2NC0xLjg0LTYuODY1LTEuODQtMTAuMzQ2IDAtMTUuMTUgMTIuMjg1LTI3LjQzIDI3LjQzOS0yNy40MyAyLjA2NSAwIDQuMDc3LjIyNyA2LjAxMi42Ni4zMzMtLjM3LjY3Ni0uNzMgMS4wMjktMS4wODMgNS4zMTEtNS4zMSAxMi41MTQtOC4zNTYgMjAuMTc4LTguMzU2em0wIDE3LjU1NmMtMi4wNjQgMC00LjAyOC41NjYtNS43MjMgMS42MDUgMy42ODMgNC42MzQgNS44OTggMTAuNDg3IDUuOTQxIDE2Ljg1NWwuMDAxLjE5M3Y5Ljg3NWgxMC43NTZWMzUuMTFjMC02LTQuODE2LTEwLjg3NC0xMC43OTQtMTAuOTdsLS4xODEtLjAwMnptLTI3LjIyIDguNzc4Yy01LjQ1NSAwLTkuODc3IDQuNDItOS44NzcgOS44NzUgMCA1LjM5OSA0LjMzNCA5Ljc4NiA5LjcxNCA5Ljg3M2wuMTY0LjAwMmg5Ljg3OHYtOS44NzVjMC01LjM0Ni00LjI0OS05LjY5OS05LjU1NC05Ljg3bC0uMTYtLjAwNC0uMTY0LS4wMDF6Ii8+CiAgICAgICAgICAgICAgICAgICAgPGVsbGlwc2UgY3g9IjI2NS42MDMiIGN5PSIyNi4zMzMiIGZpbGw9IiMwOUYiIHJ4PSIxMC45NzUiIHJ5PSIxMC45NzIiLz4KICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBjeD0iMjMwLjQ4MiIgY3k9IjI2LjMzMyIgZmlsbD0iIzBDOSIgcng9IjEwLjk3NSIgcnk9IjEwLjk3MiIvPgogICAgICAgICAgICAgICAgICAgIDxlbGxpcHNlIGN4PSIxOTUuMzYxIiBjeT0iMjYuMzMzIiBmaWxsPSIjMDBEMzU4IiByeD0iMTAuOTc1IiByeT0iMTAuOTcyIi8+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8cGF0aCBmaWxsPSIjRkZGIiBkPSJNOTUuMzg3IDEzLjU3OGMxLjE5MSAwIDIuMTU2Ljk2NiAyLjE1NiAyLjE1NnY1Mi40N2MwIDEuMTktLjk2NSAyLjE1NS0yLjE1NiAyLjE1NUgyLjE1N0MuOTY0IDcwLjM2IDAgNjkuMzk0IDAgNjguMjAzVjE1LjczNGMwLTEuMTkuOTY1LTIuMTU2IDIuMTU2LTIuMTU2aDkzLjIzMXptLTY3LjU4MSAxNi41M0gxMi4zNDd2MjUuNDM5aDQuODkyVjQ0LjU3NWg4LjgxMnYtNC4yMmgtOC44MTJ2LTYuMDI4aDEwLjU2N3YtNC4yMnptMTAuMTkzLS40ODNjLS44NDYgMC0yLjA3OC4wNjctMy42OTYuMi0xLjUyMy4xMjctMi40ODQuMjMtMi44ODIuMzA4bC0uMDY4LjAxNHYyNS40aDQuODkxdi05LjQ4NWMuMS4wOC4zOTIuMTU0Ljg3OC4yMjEuNDg1LjA2Ny45MDIuMSAxLjI1LjEuNDc0IDAgLjg0Ny0uMDI2IDEuMTItLjA4LjYyMyAxLjI4NiAxLjQzMiAzLjE0OSAyLjQyOCA1LjU4Ny42NzcgMS42NTcgMS4xNjggMi44MzMgMS40NzIgMy41MjVsLjA1OS4xMzJoNC45MjljLTEuOTkyLTQuNDItMy41MjMtNy45Ny00LjU5My0xMC42NS44NzEtLjgzIDEuNTQzLTEuNjM1IDIuMDE2LTIuNDEyLjgyMi0xLjM5MyAxLjIzMi0zLjAyNyAxLjIzMi00LjkwMyAwLTIuMTk3LS41Ni0zLjk2NS0xLjY4LTUuMzA1LTEuNTE4LTEuNzY4LTMuOTctMi42NTItNy4zNTYtMi42NTJ6bTI3LjgxOC40ODJINTAuMzZ2MjUuNDRoMTUuOTQzdi00LjIySDU1LjI1di02Ljc5Mmg4LjgxMnYtNC4yMkg1NS4yNXYtNS45ODhoMTAuNTY3di00LjIyem0xOC44OTQgMEg2OS4yNTJ2MjUuNDRoMTUuOTQ0di00LjIySDc0LjE0NHYtNi43OTJoOC44MTJ2LTQuMjJoLTguODEydi01Ljk4OEg4NC43MXYtNC4yMnptLTQ2LjE1MiAzLjczOGMyLjIxNiAwIDMuMzI0IDEuMjQ2IDMuMzI0IDMuNzM3IDAgMS40NzQtLjI3NCAyLjYtLjgyMiAzLjM3Ni0uNTQ3LjgwNC0xLjM0NCAxLjIwNi0yLjM5IDEuMjA2LS43NzEgMC0xLjUxOC0uMTA3LTIuMjQtLjMyMi0uMDUtLjAxNy0uMDk0LS4wMy0uMTMzLS4wMzVsLS4wNTQtLjAwNXYtNy42NzZjLjI3NC0uMTg3IDEuMDQ2LS4yODEgMi4zMTUtLjI4MXoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01MiAtNTgpIHRyYW5zbGF0ZSg1MiA1OCkiLz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                            alt="شاهد Shahid" height="18"></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <header class="header position-relative text-right">
+
+
+        <div class="header1 position-absolute ">
+
+            <img class="mb-5 mr-3 w-50" src="https://shahidstatic5.akamaized.net/mediaObject/New-Thumbs/Karim2020-55/Al-Lob2a-S02-logo/original/Al-Lob2a-S02-logo.png?height=&width=246&croppingPoint=mc&version=1&type=png" alt="">
+            <div class="d-flex text-right ">
+
+
+                <h6 class="  headertext ">عائلى , كومديا <span class="text-light ">(الموسم 2)</span> </h6>
+
+
+                <img class="ml-2" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOSIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI5IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjUpIj4KICAgICAgICA8cmVjdCB3aWR0aD0iMjgiIGhlaWdodD0iMTYiIGZpbGw9IiMwOUYiIHJ4PSIyIi8+CiAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTkgNWEzLjUgMy41IDAgMCAxIC4xOTIgNi45OTVMMTkgMTJoLTF2MWExIDEgMCAwIDEtMS45OTMuMTE3TDE2IDEzVjZhMSAxIDAgMCAxIDEtMWgyem0tNSAwYTEgMSAwIDAgMSAuOTkzLjg4M0wxNSA2djVhMSAxIDAgMCAxLTEuOTkzLjExN0wxMyAxMVY2YTEgMSAwIDAgMSAxLTF6bS0yLjA4Ni0uNDFhMSAxIDAgMCAxIC41MzggMS4yMTVsLS4wNDIuMTA5LTIuNSA1LjVjLS4zMzcuNzQyLTEuMzU2Ljc4LTEuNzYyLjExMWwtLjA1OC0uMTExLTIuNS01LjVhMSAxIDAgMCAxIDEuNzY2LS45MzFsLjA1NC4xMDNMOSA4LjU4M2wxLjU5LTMuNDk3YTEgMSAwIDAgMSAxLjMyNC0uNDk2ek0xOSA3aC0xdjNoMWExLjUgMS41IDAgMCAwIC4xNDQtMi45OTNMMTkgN3ptLTUtNWExIDEgMCAxIDEgMCAyIDEgMSAwIDAgMSAwLTJ6Ii8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                    alt="">
+
+            </div>
+
+            <div class="headerbtn1">
+                <button class="btn text-light headerbtn2">اضف لقائمتى <span><i class="fas fa-plus"></i></span></button>
+                <button class="btn  text-light headerbtn">شاهد الان <span><i class="fas fa-play"></i></span></button>
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="d-flex headerimg position-absolute">
+            <img src="https://shahidstatic5.akamaized.net/mediaObject/New-Thumbs/Karim2020-55/Al-Lob2a-S02-logo/original/Al-Lob2a-S02-logo.png?height=auto&width=400&croppingPoint=&version=1&type=png" alt="">
+            <img src="https://shahidstatic5.akamaized.net/mediaObject/New-Thumbs/Karim2020-55/Al-Lob2a-S02-logo/original/Al-Lob2a-S02-logo.png?height=auto&width=400&croppingPoint=&version=1&type=png" alt="">
+            <img src="https://shahidstatic5.akamaized.net/mediaObject/New-Thumbs/Karim2020-55/Al-Lob2a-S02-logo/original/Al-Lob2a-S02-logo.png?height=auto&width=400&croppingPoint=&version=1&type=png" alt="">
+            <img src="https://shahidstatic5.akamaized.net/mediaObject/New-Thumbs/Karim2020-55/Al-Lob2a-S02-logo/original/Al-Lob2a-S02-logo.png?height=auto&width=400&croppingPoint=&version=1&type=png" alt="">
+            <img src="https://shahidstatic5.akamaized.net/mediaObject/New-Thumbs/Karim2020-55/Al-Lob2a-S02-logo/original/Al-Lob2a-S02-logo.png?height=auto&width=400&croppingPoint=&version=1&type=png" alt="">
+
+        </div>
+
+        <div class="headerh2 position-absolute">
+            <h2>اشترك وشاهد الان</h2>
+        </div>
+
+
+
+
+    </header>
+
+    <section class="section1 d-flex">
+
+
+
+
+        <div class=" metoo position-relative overflow-hidden ">
+
+            <img  src="image/5.png" alt="">
+
+            <div class="sectionlogo position-absolute">
+                <img class="ml-2" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOSIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI5IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjUpIj4KICAgICAgICA8cmVjdCB3aWR0aD0iMjgiIGhlaWdodD0iMTYiIGZpbGw9IiMwOUYiIHJ4PSIyIi8+CiAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTkgNWEzLjUgMy41IDAgMCAxIC4xOTIgNi45OTVMMTkgMTJoLTF2MWExIDEgMCAwIDEtMS45OTMuMTE3TDE2IDEzVjZhMSAxIDAgMCAxIDEtMWgyem0tNSAwYTEgMSAwIDAgMSAuOTkzLjg4M0wxNSA2djVhMSAxIDAgMCAxLTEuOTkzLjExN0wxMyAxMVY2YTEgMSAwIDAgMSAxLTF6bS0yLjA4Ni0uNDFhMSAxIDAgMCAxIC41MzggMS4yMTVsLS4wNDIuMTA5LTIuNSA1LjVjLS4zMzcuNzQyLTEuMzU2Ljc4LTEuNzYyLjExMWwtLjA1OC0uMTExLTIuNS01LjVhMSAxIDAgMCAxIDEuNzY2LS45MzFsLjA1NC4xMDNMOSA4LjU4M2wxLjU5LTMuNDk3YTEgMSAwIDAgMSAxLjMyNC0uNDk2ek0xOSA3aC0xdjNoMWExLjUgMS41IDAgMCAwIC4xNDQtMi45OTNMMTkgN3ptLTUtNWExIDEgMCAxIDEgMCAyIDEgMSAwIDAgMSAwLTJ6Ii8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                    alt="">
+            </div>
+
+            <div class="sectionhover text-right position-absolute">
+                <div class="mr-3 mb-3">
+                    <h4>اسود فاتح </h4>
+
+                    <h6 class=" sectiontext ">عائلى , كومديا <span class="text-light ">(الموسم 2)</span> </h6>
+                </div>
+                <div class="sectionbtn1">
+                    <button class="btn text-light sectionbtn2">اضف لقائمتى <span><i class="fas fa-plus"></i></span></button>
+                    <button class="btn  text-light sectionbtn">شاهد الان <span><i class="fas fa-play"></i></span></button>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div class=" metoo position-relative overflow-hidden">
+            <img src="image/5.png" alt="">
+
+            <div class="sectionlogo position-absolute">
+                <img class="ml-2" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOSIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI5IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjUpIj4KICAgICAgICA8cmVjdCB3aWR0aD0iMjgiIGhlaWdodD0iMTYiIGZpbGw9IiMwOUYiIHJ4PSIyIi8+CiAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTkgNWEzLjUgMy41IDAgMCAxIC4xOTIgNi45OTVMMTkgMTJoLTF2MWExIDEgMCAwIDEtMS45OTMuMTE3TDE2IDEzVjZhMSAxIDAgMCAxIDEtMWgyem0tNSAwYTEgMSAwIDAgMSAuOTkzLjg4M0wxNSA2djVhMSAxIDAgMCAxLTEuOTkzLjExN0wxMyAxMVY2YTEgMSAwIDAgMSAxLTF6bS0yLjA4Ni0uNDFhMSAxIDAgMCAxIC41MzggMS4yMTVsLS4wNDIuMTA5LTIuNSA1LjVjLS4zMzcuNzQyLTEuMzU2Ljc4LTEuNzYyLjExMWwtLjA1OC0uMTExLTIuNS01LjVhMSAxIDAgMCAxIDEuNzY2LS45MzFsLjA1NC4xMDNMOSA4LjU4M2wxLjU5LTMuNDk3YTEgMSAwIDAgMSAxLjMyNC0uNDk2ek0xOSA3aC0xdjNoMWExLjUgMS41IDAgMCAwIC4xNDQtMi45OTNMMTkgN3ptLTUtNWExIDEgMCAxIDEgMCAyIDEgMSAwIDAgMSAwLTJ6Ii8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                    alt="">
+            </div>
+
+            <div class="sectionhover text-right position-absolute">
+                <div class="mr-3 mb-3">
+                    <h4>اسود فاتح </h4>
+
+                    <h6 class=" sectiontext ">عائلى , كومديا <span class="text-light ">(الموسم 2)</span> </h6>
+                </div>
+                <div class="sectionbtn1">
+                    <button class="btn text-light sectionbtn2">اضف لقائمتى <span><i class="fas fa-plus"></i></span></button>
+                    <button class="btn  text-light sectionbtn">شاهد الان <span><i class="fas fa-play"></i></span></button>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+        <div class=" metoo position-relative overflow-hidden ">
+            <img src="image/5.png" alt="">
+
+            <div class="sectionlogo position-absolute">
+                <img class="ml-2" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOSIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI5IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjUpIj4KICAgICAgICA8cmVjdCB3aWR0aD0iMjgiIGhlaWdodD0iMTYiIGZpbGw9IiMwOUYiIHJ4PSIyIi8+CiAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTkgNWEzLjUgMy41IDAgMCAxIC4xOTIgNi45OTVMMTkgMTJoLTF2MWExIDEgMCAwIDEtMS45OTMuMTE3TDE2IDEzVjZhMSAxIDAgMCAxIDEtMWgyem0tNSAwYTEgMSAwIDAgMSAuOTkzLjg4M0wxNSA2djVhMSAxIDAgMCAxLTEuOTkzLjExN0wxMyAxMVY2YTEgMSAwIDAgMSAxLTF6bS0yLjA4Ni0uNDFhMSAxIDAgMCAxIC41MzggMS4yMTVsLS4wNDIuMTA5LTIuNSA1LjVjLS4zMzcuNzQyLTEuMzU2Ljc4LTEuNzYyLjExMWwtLjA1OC0uMTExLTIuNS01LjVhMSAxIDAgMCAxIDEuNzY2LS45MzFsLjA1NC4xMDNMOSA4LjU4M2wxLjU5LTMuNDk3YTEgMSAwIDAgMSAxLjMyNC0uNDk2ek0xOSA3aC0xdjNoMWExLjUgMS41IDAgMCAwIC4xNDQtMi45OTNMMTkgN3ptLTUtNWExIDEgMCAxIDEgMCAyIDEgMSAwIDAgMSAwLTJ6Ii8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                    alt="">
+            </div>
+
+            <div class="sectionhover text-right position-absolute">
+                <div class="mr-3 mb-3">
+                    <h4>اسود فاتح </h4>
+
+                    <h6 class=" sectiontext ">عائلى , كومديا <span class="text-light ">(الموسم 2)</span> </h6>
+                </div>
+                <div class="sectionbtn1">
+                    <button class="btn text-light sectionbtn2">اضف لقائمتى <span><i class="fas fa-plus"></i></span></button>
+                    <button class="btn  text-light sectionbtn">شاهد الان <span><i class="fas fa-play"></i></span></button>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

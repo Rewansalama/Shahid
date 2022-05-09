@@ -1,0 +1,180 @@
+               .icon {
+                   color: #FFFFFF;
+               }
+               
+               .navbtn {
+                   background: linear-gradient(90deg, #0c9 0, #09f);
+                   color: #FFFFFF;
+                   margin-right: 8px;
+                   padding-left: 10px;
+                   padding-right: 10px;
+                   border: none;
+                   border-radius: 50px;
+               }
+               
+               .navbtn:hover {
+                   background: linear-gradient(90deg, #0c9 0, #0c9);
+               }
+               
+               .navitem:hover {
+                   color: #0c9 !important;
+               }
+               
+               .header {
+                   height: 100vh;
+                   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/2.png);
+                   background-repeat: no-repeat;
+                   background-size: cover;
+                   background-position: center top;
+                   background-attachment: fixed;
+               }
+               
+               .header1 {
+                   right: 3%;
+                   top: 20%;
+               }
+               
+               .headertext {
+                   color: #a3afc2;
+                   margin-left: 90px;
+               }
+               
+               .headerbtn1 {
+                   margin-top: 20px;
+                   padding-right: 50px;
+               }
+               
+               .headerbtn {
+                   background: linear-gradient(90deg, #0c9 0, #09f);
+                   color: #FFFFFF;
+                   margin-right: 8px;
+                   padding-left: 30px;
+                   padding-right: 30px;
+                   border: none;
+                   border-radius: 50px;
+                   font-weight: 700;
+               }
+               
+               .headerbtn:hover {
+                   background: linear-gradient(90deg, #0c9 0, #0c9);
+               }
+               
+               .headerbtn2 {
+                   background: #181d25;
+                   font-weight: 700;
+                   color: #FFFFFF;
+                   margin-right: 8px;
+                   padding-left: 20px;
+                   padding-right: 20px;
+                   border-radius: 50px;
+                   border-color: #09f;
+                   border-width: 2px;
+               }
+               
+               .headerbtn2:hover {
+                   background: linear-gradient(90deg, #0c9 0, #0c9);
+               }
+               
+               .headerimg {
+                   top: 85%;
+                   left: 30%;
+               }
+               
+               .headerimg img {
+                   width: 8%;
+                   margin-left: 30px;
+                   transition: 1.5s;
+               }
+               
+               .headerimg img:hover {
+                   transform: scale(1.5, 1.5);
+               }
+               
+               .headerh2 {
+                   top: 95%;
+                   left: 85%;
+               }
+               
+               .headerh2 h2 {
+                   margin: 0;
+                   display: flex;
+                   font-weight: 700;
+                   white-space: nowrap;
+                   font-family: Shahid-bold, sans-serif;
+                   align-content: center;
+                   vertical-align: middle;
+                   color: #fff;
+               }
+               
+               .section1 {
+                   background-color: #66686b;
+               }
+               
+               .section1 img {
+                   margin-top: 20px;
+                   margin-bottom: 50px;
+                   margin-left: 20px;
+                   width: 80%;
+                   transition: 2s;
+               }
+               
+               .sectionlogo {
+                   top: 5%;
+                   left: 68%;
+               }
+               
+               .sectionlogo {
+                   width: 15%;
+                   height: 15%;
+               }
+               
+               .sectionhover h4 {
+                   color: #fff;
+                   font-family: Shahid-bold, sans-serif;
+                   font-weight: 500;
+                   margin-bottom: 4px;
+               }
+               
+               .sectiontext {
+                   color: #a3afc2;
+               }
+               
+               .sectionbtn {
+                   background: linear-gradient(90deg, #0c9 0, #09f);
+                   color: #FFFFFF;
+                   margin-right: 8px;
+                   padding-left: 30px;
+                   padding-right: 30px;
+                   border: none;
+                   border-radius: 50px;
+                   font-weight: 700;
+               }
+               
+               .sectionbtn:hover {
+                   background: linear-gradient(90deg, #0c9 0, #0c9);
+               }
+               
+               .sectionbtn2 {
+                   background: #181d25;
+                   font-weight: 700;
+                   color: #FFFFFF;
+                   margin-right: 8px;
+                   padding-left: 20px;
+                   padding-right: 20px;
+                   border-radius: 50px;
+                   border-color: #09f;
+                   border-width: 2px;
+               }
+               
+               .sectionbtn2:hover {
+                   background: linear-gradient(90deg, #0c9 0, #0c9);
+               }
+               
+               .metoo img:hover {
+                   transform: scale(1.25, 1.25);
+               }
+               
+               .metoo:hover .sectionhover {
+                   top: 60%;
+                   left: 15%;
+               }
